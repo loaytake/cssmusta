@@ -1,3 +1,14 @@
+@layer general-styling {
+    html {
+    color-scheme: dark light;
+    font-family: system-ui;
+    line-height: 1.6;
+  }
+    body {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+}
 header, main, footer {
     container-type: inline-size;
     margin: 0 auto;
